@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+
+</head>
+<body>
+    <div id="ffbe3fe902a54118b00e7c03cebd439f" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_ffbe3fe902a54118b00e7c03cebd439f = echarts.init(
+            document.getElementById('ffbe3fe902a54118b00e7c03cebd439f'), 'white', {renderer: 'canvas'});
+        var option_ffbe3fe902a54118b00e7c03cebd439f = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "effectScatter",
+            "coordinateSystem": "geo",
+            "showEffectOn": "render",
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            },
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "France",
+                    "value": [
+                        2.21,
+                        46.23,
+                        1
+                    ]
+                },
+                {
+                    "name": "China",
+                    "value": [
+                        104.2,
+                        35.86,
+                        9
+                    ]
+                },
+                {
+                    "name": "United states",
+                    "value": [
+                        -95.71,
+                        37.09,
+                        2
+                    ]
+                },
+                {
+                    "name": "Germany",
+                    "value": [
+                        10.45,
+                        51.17,
+                        3
+                    ]
+                },
+                {
+                    "name": "Japan",
+                    "value": [
+                        138.25,
+                        36.2,
+                        5
+                    ]
+                },
+                {
+                    "name": "Korea",
+                    "value": [
+                        127.98,
+                        37.66,
+                        8
+                    ]
+                },
+                {
+                    "name": "Italy",
+                    "value": [
+                        12.57,
+                        41.87,
+                        4
+                    ]
+                },
+                {
+                    "name": "Canada",
+                    "value": [
+                        -106.35,
+                        56.13,
+                        6
+                    ]
+                },
+                {
+                    "name": "Russia",
+                    "value": [
+                        105.32,
+                        61.52,
+                        7
+                    ]
+                }
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "lines",
+            "name": "\u6210\u4e3a\u53cc\u5965\u56fd\u7684\u987a\u5e8f",
+            "coordinateSystem": "geo",
+            "zlevel": 3,
+            "progressive": 400,
+            "progressiveThreshold": 3000,
+            "effect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4,
+                "color": "orange",
+                "symbol": "arrow",
+                "symbolSize": 10
+            },
+            "symbol": [
+                "none",
+                "arrow"
+            ],
+            "polyline": false,
+            "large": false,
+            "largeThreshold": 2000,
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "France->United states",
+                    "coords": [
+                        [
+                            2.21,
+                            46.23
+                        ],
+                        [
+                            -95.71,
+                            37.09
+                        ]
+                    ]
+                },
+                {
+                    "name": "United states->Germany",
+                    "coords": [
+                        [
+                            -95.71,
+                            37.09
+                        ],
+                        [
+                            10.45,
+                            51.17
+                        ]
+                    ]
+                },
+                {
+                    "name": "Germany->Italy",
+                    "coords": [
+                        [
+                            10.45,
+                            51.17
+                        ],
+                        [
+                            12.57,
+                            41.87
+                        ]
+                    ]
+                },
+                {
+                    "name": "Italy->Japan",
+                    "coords": [
+                        [
+                            12.57,
+                            41.87
+                        ],
+                        [
+                            138.25,
+                            36.2
+                        ]
+                    ]
+                },
+                {
+                    "name": "Japan->Canada",
+                    "coords": [
+                        [
+                            138.25,
+                            36.2
+                        ],
+                        [
+                            -106.35,
+                            56.13
+                        ]
+                    ]
+                },
+                {
+                    "name": "Canada->Russia",
+                    "coords": [
+                        [
+                            -106.35,
+                            56.13
+                        ],
+                        [
+                            105.32,
+                            61.52
+                        ]
+                    ]
+                },
+                {
+                    "name": "Russia->Korea",
+                    "coords": [
+                        [
+                            105.32,
+                            61.52
+                        ],
+                        [
+                            127.98,
+                            37.66
+                        ]
+                    ]
+                },
+                {
+                    "name": "Korea->China",
+                    "coords": [
+                        [
+                            127.98,
+                            37.66
+                        ],
+                        [
+                            104.2,
+                            35.86
+                        ]
+                    ]
+                }
+            ],
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0.3,
+                "type": "solid"
+            },
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "",
+                "\u6210\u4e3a\u53cc\u5965\u56fd\u7684\u987a\u5e8f"
+            ],
+            "selected": {
+                "": true,
+                "\u6210\u4e3a\u53cc\u5965\u56fd\u7684\u987a\u5e8f": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "formatter": function (params) {        return params.name + ' : ' + params.value[2];    },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "\u51ac\u5965\u548c\u590f\u5965\u90fd\u4e3e\u529e\u56fd\u7684\u56fd\u5bb6",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "continuous",
+        "min": 0,
+        "max": 9,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 140,
+        "borderWidth": 0
+    },
+    "geo": {
+        "map": "world",
+        "roam": true,
+        "aspectScale": 0.75,
+        "nameProperty": "name",
+        "selectedMode": false,
+        "emphasis": {}
+    }
+};
+        chart_ffbe3fe902a54118b00e7c03cebd439f.setOption(option_ffbe3fe902a54118b00e7c03cebd439f);
+    </script>
+</body>
+</html>
