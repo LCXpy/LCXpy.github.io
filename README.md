@@ -58,32 +58,26 @@
 ## 1.作业一
 
 
-### 分析了共产党宣言的词语词频，通过词云的方式可视化
+### 简单实现必应搜索
 
 
-### [作业一链接](https://LCXpy.github.io/宣言词云.html)
+### [作业一链接](https://LCXpy.github.io/html_bing.html)
 
 
 ## 2.作业二
 
 
-### 地图一：我们班内有37位同学，自五湖四海而来，共聚北京
+### 春日燕园网页
 
 
-### 地图二：对比各国夏奥、冬奥的举办时间，选出了目前九个两种奥运会都举办过的国家
-
-
-### [地图一链接](https://LCXpy.github.io/共聚china.html)
-
-
-### [地图二链接](https://LCXpy.github.io/双奥国.html)
+### [作业二链接](https://LCXpy.github.io/spring.html)
 
 
 ## 3.作业三
 
 
-### 通过组合图像的方式全方面展示一个反应体系
+### 红楼梦人物关系共现
 
 
-### [作业三链接](https://LCXpy.github.io/组合图像.html)
+### [作业三链接](https://LCXpy.github.io/红楼梦.html)
 
